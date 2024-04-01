@@ -1,6 +1,10 @@
-<h1 align="center"> techtree | back-end </h1>
+<h1 align="center"> techtree </h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/build-1.0-brightgreen">
+</p>
 
-Welcome to the techtree back end documentation. Here you will find how to clone and start the project and run for the first time.
+
+Welcome to the techtree front end documentation. Here you will find how to clone and start the project and run for the first time.
 
 ## Getting Started
 
@@ -8,7 +12,7 @@ Welcome to the techtree back end documentation. Here you will find how to clone 
 
 ```
 bash
-git clone https://github.com/ronaldothame/techtree-backend.git
+git clone https://github.com/ronaldothame/techtree-frontend.git
 ```
 
 2. Install the dependencies:
@@ -43,7 +47,7 @@ Done! You have already cloned the repository on your machine! 😄
 
 ## 📖 Licence
 
-This project is for academic purposes for the Faculty of Engineering of Sorocaba (FACENS)
+This project is for academic purposes for the University of Engineering of Sorocaba (FACENS)
 
 ## ✍️ Contributors
 
