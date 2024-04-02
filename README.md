@@ -4,7 +4,7 @@
 </p>
 
 
-Welcome to the techtree front end documentation. Here you will find how to clone and start the project and run for the first time.
+Welcome to the techtree back end documentation. Here you will find how to clone and start the project and run for the first time.
 
 ## Getting Started
 
