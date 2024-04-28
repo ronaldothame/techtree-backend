@@ -1,0 +1,3 @@
+INSERT INTO Trees (title) VALUES
+('FRONT-END'),
+('BACK-END');
