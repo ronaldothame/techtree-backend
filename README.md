@@ -1,62 +1,56 @@
-<h1 align="center"> techtree </h1>
-<p align="center">
-  <img src="https://img.shields.io/badge/build-1.0-brightgreen">
-</p>
+# Feature: Learning Path
+  As a user
+  I want to follow a learning path
+  So that I can learn new skills
 
+# Scenario 1: Select Backend Path
+  Given I am on the home page
+  When I select the Backend path
+  Then I should see the modules related to Backend
 
-Welcome to the techtree back end documentation. Here you will find how to clone and start the project and run for the first time.
+# Scenario 2: Complete HTML Module
+  Given I am on the Frontend path
+  When I complete the HTML module
+  Then the JavaScript module should be unlocked
 
-## Getting Started
+# Scenario 3: Fail HTML Module Quiz
+  Given I am taking the HTML module quiz
+  When I fail the quiz
+  Then I should have the option to retake the quiz
 
-1. Clone the repository:
+# Scenario 4: Pass HTML Module Quiz
+  Given I am taking the HTML module quiz
+  When I pass the quiz
+  Then the JavaScript module should be unlocked
 
-```
-bash
-git clone https://github.com/ronaldothame/techtree-frontend.git
-```
+# Scenario 5: View HTML Module Explanatory Links
+  Given I am on the HTML module
+  When I click on the explanatory link
+  Then I should be directed to the explanatory content
 
-2. Install the dependencies:
+# Scenario 6: Select DevOps Path
+  Given I am on the home page
+  When I select the DevOps path
+  Then I should see the modules related to DevOps
 
-```
-npm install
-yarn install
-```
+# Scenario 7: Complete Backend Path
+  Given I am on the Backend path
+  When I complete all the modules
+  Then I should receive a completion certificate
 
-Done! You have already cloned the repository on your machine! 😄
+# Scenario 8: View Progress on Frontend Path
+  Given I am on the Frontend path
+  When I view my progress
+  Then I should see the completed modules and the pending ones
 
+# Scenario 9: Return to Completed Module
+  Given I have completed the HTML module
+  When I return to the HTML module
+  Then I should be able to review the content and the quiz
 
-## 🖥️ Technologies used
-
-### Main language
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="14" height="14"/> Java `back-end`
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png" width="14" height="14"/> TypeScript `front-end`
-
-### Programs used
-<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/visual-studio-code-icon.png" width="14" height="14"/> Visual Studio Code
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="14" height="14"/> Figma 
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" width="14" height="14"/> PostgreSQL
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" width="14" height="14"/> Node.js
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1200px-React_Logo_SVG.svg.png" width="14" height="14"/> React
-
-<img src="https://devkico.itexto.com.br/wp-content/uploads/2014/08/spring-boot-project-logo.png" width="14" height="14"/> Spring Boot
-
-## 📖 Licence
-
-This project is for academic purposes for the University of Engineering of Sorocaba (FACENS)
-
-## ✍️ Contributors
-
-- 👨‍💻 Cauê `Front-end`
-- 👩‍💻 Hillary `Front-end`
-- 👩‍💻 Melissa `Scrum Master`
-- 👨‍💻 Nathan `Back-end`
-- 👨‍💻 Ronaldo `Technical leader`
-- 👨‍💻 Vinicius `PO`
-
+# Scenario 10: Try to Access Locked Module
+  Given I am on the Frontend path
+  When I try to access the JavaScript module without completing the HTML module
+  Then I should be informed that I need to complete the HTML module first
 
 ## Copyright ®️ 2024 | techtree
